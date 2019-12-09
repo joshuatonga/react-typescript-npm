@@ -1,6 +1,6 @@
 {
   "name": "react-typescript-npm",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "React npm library boilerplate with Typescript",
   "homepage": "https://github.com/hellojoshuatonga/react-typescript-npm#readme",
   "main": "lib/index.js",
