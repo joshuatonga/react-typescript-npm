@@ -1,9 +1,10 @@
 {
   "name": "react-typescript-npm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React npm library boilerplate with Typescript",
   "main": "lib/index.js",
   "scripts": {
+    "prepublish": "npm run build",
     "build": "tsc -p tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\"",
     "dev": "concurrently --handle-input \"wait-on lib/index.js && nodemon\" \"tsc -w -p tsconfig.build.json\" ",
