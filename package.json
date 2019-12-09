@@ -2,6 +2,7 @@
   "name": "react-typescript-npm",
   "version": "0.0.2",
   "description": "React npm library boilerplate with Typescript",
+  "homepage": "https://github.com/hellojoshuatonga/react-typescript-npm#readme",
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "npm run build",
